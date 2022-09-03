@@ -1,0 +1,73 @@
+colors{
+    main: rgba(4,140,168,1);
+    secondary: rgba(22,219,147,1);
+    accent: rgba(211,24,105,1);
+    white: rgb(255,255,255);
+
+    text-main: rgba(22,219,147,1);
+    text-inverse: rgb(255,255,255);
+    text-accent: rgba(211,24,105,1);
+    text-secondary: rgba(4,140,168,1);
+}
+
+fonts{
+    font-stack: Roboto, sans-serif;
+    font-light: 300;
+    font-normal: 400;
+    font-bold: 700;
+    font-black: 900;
+}
+
+html{
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body{
+    margin:0;
+    background-color: rgba(4,140,168,1);
+}
+
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+.hero{
+    background: linear-gradient(to right, rgba(4,140,168,1), rgba(22,219,147,1));
+    color: rgb(255,255,255);
+    padding-top: 8em;
+    padding-bottom: 8em;
+    text-align: center;
+}
+
+.main-header{
+    position: absolute;
+    top:0;
+    right: 0;
+    left: 0;
+}
+
+.logo{
+    width:25%;
+    min-width: 10rem;
+    max-width: 15rem;
+}
+
+.grid{
+    display: flex;
+
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.container{
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
